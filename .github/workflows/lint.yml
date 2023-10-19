@@ -2,9 +2,9 @@ name: lint
 
 on:
   push:
-    branches: [ master,auto-update-and-release ]
+    branches: [ master ]
   pull_request:
-    branches: [ master,auto-update-and-release ]
+    branches: [ master ]
 
 jobs:
   lint:
