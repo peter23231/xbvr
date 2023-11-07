@@ -80,6 +80,13 @@
                 show Script Heatmap
               </b-switch>
             </b-field>
+            <b-field label="Opacity of unavailable scenes">
+              <div class="columns">
+                <div class="column is-two-thirds">
+                  <b-slider :min="0" :max="100" :step="10" :tooltip="false" v-model="isAvailOpacity" opacity:isAvailOpacity></b-slider>
+                </div>
+              </div>
+            </b-field>
 
             <b-field label="Automatically Check for Updates">
               <b-switch v-model="updateCheck">
@@ -221,9 +228,20 @@ export default {
         this.$store.state.optionsWeb.web.showSubtitlesFile = value
       }
     },
+    isAvailOpacity: {
+      get () {
+        if  (this.$store.state.optionsWeb.web.isAvailOpacity == undefined) {
+          return 40
+        }
+        return this.$store.state.optionsWeb.web.isAvailOpacity
+      },
+      set (value) {
+        this.$store.state.optionsWeb.web.isAvailOpacity = value
+      }
+    },
     isLoading: function () {
       return this.$store.state.optionsWeb.loading
-    }
+    }    
   }
 }
 </script>

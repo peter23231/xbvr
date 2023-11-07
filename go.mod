@@ -1,6 +1,6 @@
 module github.com/xbapps/xbvr
 
-go 1.19
+go 1.20
 
 require (
 	github.com/ProtonMail/go-appdir v1.1.0
@@ -14,17 +14,17 @@ require (
 	github.com/creasty/defaults v1.7.0
 	github.com/darwayne/go-timecode v1.1.0
 	github.com/disintegration/imaging v1.6.2
-	github.com/djherbis/times v1.5.0
+	github.com/djherbis/times v1.6.0
 	github.com/dustin/go-humanize v1.0.1
 	github.com/emicklei/go-restful-openapi/v2 v2.9.1
 	github.com/emicklei/go-restful/v3 v3.11.0
 	github.com/gammazero/nexus/v3 v3.2.1
 	github.com/getlantern/systray v1.2.2
 	github.com/go-openapi/spec v0.20.9
-	github.com/go-resty/resty/v2 v2.7.0
+	github.com/go-resty/resty/v2 v2.10.0
 	github.com/go-test/deep v1.1.0
 	github.com/gocolly/colly/v2 v2.1.0
-	github.com/gorilla/mux v1.8.0
+	github.com/gorilla/mux v1.8.1
 	github.com/gosimple/slug v1.13.1
 	github.com/gowww/log v1.0.0
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79
@@ -37,7 +37,7 @@ require (
 	github.com/lucasb-eyer/go-colorful v1.2.0
 	github.com/marcsauter/single v0.0.0-20201009143647-9f8d81240be2
 	github.com/markphelps/optional v0.11.0
-	github.com/mattn/go-sqlite3 v1.14.17
+	github.com/mattn/go-sqlite3 v1.14.18
 	github.com/mcuadros/go-version v0.0.0-20190830083331-035f6764e8d2
 	github.com/mholt/archiver v3.1.1+incompatible
 	github.com/mozillazg/go-slugify v0.2.0
@@ -48,16 +48,16 @@ require (
 	github.com/putdotio/go-putio v1.7.1
 	github.com/robertkrimen/otto v0.2.1
 	github.com/robfig/cron/v3 v3.0.1
-	github.com/rs/cors v1.9.0
+	github.com/rs/cors v1.10.1
 	github.com/sirupsen/logrus v1.9.3
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
 	github.com/thoas/go-funk v0.9.3
-	github.com/tidwall/gjson v1.16.0
+	github.com/tidwall/gjson v1.17.0
 	github.com/x-cray/logrus-prefixed-formatter v0.5.2
-	github.com/xo/dburl v0.16.0
+	github.com/xo/dburl v0.17.0
 	golang.org/x/crypto v0.14.0
 	golang.org/x/net v0.17.0
-	golang.org/x/oauth2 v0.11.0
+	golang.org/x/oauth2 v0.13.0
 	golang.org/x/sys v0.13.0
 	golang.org/x/text v0.13.0
 	gopkg.in/gormigrate.v1 v1.6.0
